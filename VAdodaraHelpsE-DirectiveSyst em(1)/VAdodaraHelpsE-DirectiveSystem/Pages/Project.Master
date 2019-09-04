@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Project.master.cs" Inherits="VAdodaraHelpsE_DirectiveSystem.Pages.Project" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel = "stylesheet" type = "text/css" href = "/css/style.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <header>
+    <div class="container">
+      <h1 class="logo">
+          
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.aspx">Home</a></li>
+          
+          <li><a href="index.aspx">Advertise</a></li>
+         
+          <li><a href="index.aspx">Sign-In</a></li> 
+        </ul>
+      </nav>
+    </div>
+  </header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        
+               <div class="footer">
+               <div id="button"></div>
+               <div id="container">
+               <div id="cont">
+               <div class="footer_center">
+	                  <p>Developed By : Karan Ganwani & Parth Dixit.
+                          @copyright 2017 by The Nadiad Helps
+	                  </p>
+                      
+               </div>
+               </div>
+               </div>
+               </div>
+    </div>
+    </form>
+</body>
+</html>

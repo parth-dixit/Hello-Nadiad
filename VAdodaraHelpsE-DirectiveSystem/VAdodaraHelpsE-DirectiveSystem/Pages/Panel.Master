@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Panel.master.cs" Inherits="VAdodaraHelpsE_DirectiveSystem.Pages.Panel" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="/css/new_index.css" type="text/css" /> 
+    <link rel="stylesheet" href="/css/Login.css" type="text/css" /> 
+     <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+              <header>
+    <div class="container">
+        <h1 class="logo"></h1>
+      <nav class="page-nav">
+        <ul class="menu">
+             <li><a href="Index.aspx">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <div class="footer">
+               <div id="button"></div>
+               <div id="container">
+               <div id="cont">
+               <div class="footer_center">
+	                  <p>Developed By : Karan Ganwani & Parth Dixit.
+                          @copyright 2017 by The Nadiad Helps
+	                  </p>
+                      
+               </div>
+               </div>
+               </div>
+             </div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    </div>
+    </form>
+</body>
+</html>
